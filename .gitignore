@@ -1,0 +1,54 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, type-checker and linter caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local LangGraph and development data
+.langgraph_api/
+.langgraph_api_runtime/
+langgraph_api/
+
+# Local vector database
+.chroma_db/
+chroma_db/
+
+# Generated RTL, synthesis and schematic artifacts
+generated/
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Build and package artifacts
+build/
+dist/
+*.egg-info/
